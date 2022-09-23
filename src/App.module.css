@@ -1,0 +1,25 @@
+.appContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContainer{
+    background-color: aliceblue;
+}
+
+/* ====== content ======  */
+.ContentContainer{
+    width: 100%;
+    display: flex;
+}
+
+.navigation{
+    width: 160px;
+    padding: 10px;
+    height: 100vh;
+    background-color: orange;
+}
+
+.TimerContainer{
+    width: 100%;
+}
