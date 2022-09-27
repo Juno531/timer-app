@@ -18,7 +18,7 @@ function App() {
         </div>
         <div className={styled.TimerContainer}>
           <Routes>
-            <Route path="/timer" element={<Timer />} />
+            <Route path="/" element={<Timer />} />
             <Route path="/stopwatch" element={<StopWatch />} />
           </Routes>
         </div>
