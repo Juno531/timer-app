@@ -1,3 +1,54 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+}
 .TimerContainer{
-    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+    
+    background-color: bisque;
+}
+
+.TimerHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.TimerHeaderButtons{
+    display: flex;
+
+}
+
+.timerText{
+    font-size: 150px;
+    padding: 50px;
+}
+
+.timerButton{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* ======== timer menu ======== */
+.setTimeMenuContainer{
+    display: flex;
+}
+
+.setTimeMenuItem{
+    padding: 10px;
+    font-size: 50px;
 }
